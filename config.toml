@@ -15,9 +15,9 @@ theme = "hugo-minimalist-theme"
     site_description = "The awesome site of Dmytro Kozachok."
     location = "Kyiv, Ukraine"
     # Link custom assets relative to /static
-    avatar = "img/profile-image.png"
+    avatar = "img/me2.png"
     header_background = "img/desk.jpg"
-    header_title = "Customizable header title"
+    header_title = "My website"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
     custom_js  = []
