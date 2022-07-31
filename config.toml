@@ -1,6 +1,6 @@
-baseurl = "https://example.org/"
+baseurl = "https://dmytryko.netlify.app/"
 languageCode = "en-us"
-title = "DmytryKo's site"
+title = "DmytryKo's website"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
