@@ -12,7 +12,7 @@ theme = "hugo-minimalist-theme"
 
 [params]
     site_author = "Dmytro Kozachok"
-    site_description = "The awesome site of Dmytro Kozachok."
+    site_description = "Business card site."
     location = "Kyiv, Ukraine"
     # Link custom assets relative to /static
     avatar = "img/me3.png"
