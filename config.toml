@@ -16,7 +16,7 @@ theme = "hugo-minimalist-theme"
     location = "Kyiv, Ukraine"
     # Link custom assets relative to /static
     avatar = "img/me3.png"
-    header_background = "img/desk.jpg"
+    header_background = "img/me.jpg"
     header_title = "My website"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
