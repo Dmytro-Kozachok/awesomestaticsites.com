@@ -17,7 +17,7 @@ hugo version
 git --version
 ```
 
-2. Create your website template (e.g., **your-site-name**) in the site-related Hugo folder, e.g., **Sites**, which is separated from the installation-related Hugo folder **bin** (and switch to this folder afterwards):
+2. Create your website template (e.g., **your-site-name**) in the site-related Hugo folder, e.g., **Sites**, which should be separated from the installation Hugo folder **bin**; switch to this folder afterwards:
 
 ```    
   cd C:\hugo\sites
@@ -25,7 +25,7 @@ git --version
   cd .\your-site-name
 ```
 
-3. Initiate your local git repository for the site, (optionally) check the list of untracked files, copy all the folders into the local git repository, commit the action and push all the branches to the main one:
+3. Initiate your local git repository for the site, check the list of untracked files, copy all the folders into the local git repository, commit the action and push all the branches to the main one:
 
 ```
   git init
@@ -35,26 +35,26 @@ git --version
   git push origin
 ```
 
-4. Copy GitHub link of the Hugo [theme](https://themes.gohugo.io) you've chosen into the **themes** root project folder:
+4. Copy GitHub link of the Hugo [theme](https://themes.gohugo.io) you selected into the **themes** root project folder:
 
 ```
   git submodule add https://github-theme-url themes/theme-name
 ```
 
-5. Copy **themes > theme-name > config.toml** file's content into **config.toml** root folder and adjust required file properties, then commit this (for **minimalist** Hugo theme, copy **l10n.toml** file from **themes > theme-name > exampleSite > data**  to **data** root folder):
+5. Copy the **themes > theme-name > config.toml** file's content into the **config.toml** root folder and adjust required file properties, then commit this (for a Hugo theme with **l10n.toml** file in place, e.g., **minimalist** theme, copy this file from **themes > theme-name > exampleSite > data** folder into the **data** root project folder):
 
 ```
   git add --all
   git commit -m "Commit-message"
 ```
 
-6. Build the site locally and then check it on the localhost which is generated once the command run:
+6. Build your site locally and then preview it on your localhost, which is generated in Terminal/PowerShell once the command run:
 
 ```
   hugo server
 ```
 
-7. Create a new webpage on the **content** root project folder; create a new post on the **content > post** folder (e.g., applicable for **minimalist** theme):
+7. Create a new webpage on the **content** root project folder, or a new post on the **content > post** folder (e.g., the last is applicable for blog-based Hugo themes like **minimalist**):
 
 ```
   hugo new site-page-name.md
@@ -101,7 +101,7 @@ git --version
    - master
 ```
 
-14. Commit and push the Travis' support activity to Git (Travis will run the script automatically to build your site afterwards):
+14. Commit and push the Travis' support activity to Git (Travis will run the script automatically to build your site afterwards. If not, restart the build manually):
 
 ```
   git add --all
