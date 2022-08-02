@@ -1,7 +1,6 @@
 ---
-title: "Summary"
-date: 2022-08-02T17:06:15+03:00
-# draft: true
+title: "Honor may not win power, but it earns respect. And respect wins power!"
+date: 2022-08-02
 ---
 
-[About me](/about-me) and [my experience with Hugo](/hugo-experience).
+This simple pet-project website is [about me](/about-me) and [my experience with Hugo](/hugo-experience).

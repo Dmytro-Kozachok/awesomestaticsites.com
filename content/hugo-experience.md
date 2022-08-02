@@ -43,18 +43,18 @@ hugo version
   git commit -m "<Commit_message>"
 ```
 
-4. Place link of a selected Hugo [theme](https://themes.gohugo.io), e.g. **minimalist**, into the **themes** root project folder:
+4. Place link of a selected [Hugo theme](https://themes.gohugo.io), e.g. **minimalist**, into the **themes** root folder:
 
 ```sh
   cd themes
   git submodule add https://<github_theme> themes/<theme_name>
 ```
 
-5. Copy the **themes > theme-name > config.toml** file's content into the **config.toml** root project file and then adjust the required file properties there:
+5. Copy the **themes > theme_name > config.toml** file's content into the **config.toml** root file and then adjust the required file properties there:
 
     ![config-toml](/img/config-toml.png)
 
-    For a Hugo theme with the localization file in place, e.g., **l10n.toml** for **minimalist** theme, copy this file from **themes > theme-name > exampleSite > data** folder into the **data** root project folder. Also, don't forget to delete `themesDir` property in your root project **config.toml** file to be able to launch your site locally:
+    For a Hugo theme with the localization file in place, e.g., **l10n.toml** for **minimalist** theme, copy this file from **themes > theme_name > exampleSite > data** folder into the **data** root project folder. Also, don't forget to delete `themesDir` property in your **config.toml** root file to be able to launch your site locally:
     
     ![themeDir](/img/l10n-themeDir.png)
 
