@@ -13,21 +13,20 @@ A static site generator (SSG) is a tool that generates a full static HTML websit
 Also, see my short user guide on how to create a static website using **Hugo**, based on the course above.
 
 **Prerequisites**:
-- You use MS Windows 10/11 as your operating system
-- You're familiar with any source-code editor like [Visual Studio Code](https://code.visualstudio.com/)
-- You have installed a CLI like Command Prompt, Terminal, or Windows PowerShell
-- You know markup format [Markdown](https://www.markdownguide.org/basic-syntax/), the most common documentation source format for docs-as-code
-- You have basic understanding on how to use Git and GitHub
+- You're have installed and familiar with any source-code editor like [Visual Studio Code](https://code.visualstudio.com).
+- You know how to run commands using a CLI like Command Prompt/Windows PowerShell.
+- You have [Git installed](https://git-scm.com/download/win) and familiar with [Git commands](https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands). To check if Git is installed, run `git --version` in CLI.
+- You know the syntax of [Markdown](https://www.markdownguide.org/basic-syntax).
+- You have account in [GitHub](https://github.com/Dmytro-Kozachok?tab=repositories).
 
 **User guide**:
-1. Install [Hugo](https://gohugo.io/getting-started/installing) and [Git](https://git-scm.com/download/win), if it isn't installed on your local machine, then check in the CLI if they're installed:
+1. [Install Hugo](https://gohugo.io/getting-started/installing), then check it in the CLI:
 
 ```sh
 hugo version
-git --version
 ```
 
-2. Create your website template named as **<your_site_name>** in the site-related Hugo folder, e.g., **Sites**, which should be separated from the installation Hugo folder, e.g., **bin**; open this folder in the Terminal/PowerShell:
+2. Create your website locally in a dedicated Hugo folder on your local machine, e.g., **Sites**, which should be separated from the installation Hugo folder, e.g., **bin**. Go to this folder in your CLI:
 
 ```   
   cd C:\hugo\sites
@@ -35,7 +34,7 @@ git --version
   cd .\<your_site_name>
 ```
 
-3. Initiate your local git repository for the site, check the list of untracked files, copy all the folders into the local git repository, and commit the action to Git:
+3. Initiate your local Git repository for the site, check the list of untracked files, copy all the folders into the local Git repository, and commit these to Git:
 
 ```sh
   git init
@@ -44,7 +43,7 @@ git --version
   git commit -m "<Commit_message>"
 ```
 
-4. Place the GitHub link of the Hugo [theme](https://themes.gohugo.io) you selected, e.g. **minimalist** theme, into the **themes** root project folder:
+4. Place link of a selected Hugo [theme](https://themes.gohugo.io), e.g. **minimalist**, into the **themes** root project folder:
 
 ```sh
   cd themes
@@ -66,7 +65,7 @@ git --version
   git commit -m "<Commit_message>"
 ```
 
-6. Run your site on a local server [localhost](http://localhost:1313/):
+6. Run your site on a local server [localhost:1313](http://localhost:1313/):
 
 ```sh
   hugo server
@@ -94,7 +93,7 @@ git --version
   git commit -m "<Commit_message>"
   ```
 
-11. Create your Hugo project repository in [GitHub](https://github.com/Dmytro-Kozachok?tab=repositories) and push the master branch from your local Git repository there:
+11. Create your Hugo project repository in GitHub and push the master branch from your local Git repository there:
 
 ```sh
  git remote add origin https://<your_hithub_repo>
@@ -131,4 +130,4 @@ git --version
 
 16. Sign in to [Netlify](https://app.netlify.com/sites/dmytryko/overview) with your GitHub account, then deploy and name your site following the inline instructions.
 
-17. Check out your website on the Internet by the link generated in the format **<your_site_name>.netlify.app**, e.g., https://dmytryko.netlify.app.
+17. Check out your website on the Internet by the Netlify link generated in the format **<your_site_name>.netlify.app**, e.g., https://dmytryko.netlify.app.
