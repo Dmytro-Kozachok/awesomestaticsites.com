@@ -42,7 +42,7 @@ hugo version
   git commit -m "<Commit_message>"
 ```
 
-4. Place link of a selected [Hugo theme](https://themes.gohugo.io), e.g. **minimalist**, into the **themes** root folder:
+4. Place link of a selected [Hugo theme](https://themes.gohugo.io) into the **themes** root folder:
 
 ```sh
   cd themes
@@ -127,7 +127,7 @@ hugo version
 
 15. (optional) Get a domain name for your site to public it on the Internet, e.g., using [Namecheap](https://www.namecheap.com/).
 
-16. Sign in to [Netlify](https://app.netlify.com/sites/dmytryko/overview) with your GitHub account, then deploy and name your site following the inline instructions.
+16. Sign in to [Netlify](https://app.netlify.com/sites/dmytryko/overview) with your GitHub account, then deploy and name your site following the inline instructions. For more details, refer to the [publish via Netlify](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/#publish-your-site) article of my teammate Ivan Cheban.
 
 17. Check out your website on the Internet by the Netlify link generated in the format _<your_site_name>.netlify.app_, e.g., https://dmytryko.netlify.app.
 

@@ -1,3 +1,9 @@
+---
+title: "My experience with Hugo"
+date: 2022-07-31
+# draft: true
+---
+
 Hi. 
 
 My name is Dmytro Kozachok.
